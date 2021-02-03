@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+html {
+  scrollbar-color: #000 rgba(82, 82, 82, 0.15);
+  scrollbar-width: thin;
+}
+
 .App {
   text-align: center;
+  scrollbar-color: #000 rgba(82, 82, 82, 0.15);
+  scrollbar-width: thin;
 }
 
 code {
@@ -18,4 +27,44 @@ nav > div > a > img {
 .card {
   width: 20rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+footer {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/* linear-gradient(to right, #f71e95, e8d7c9) */
+.border-title {
+  border-top: 5px solid transparent;
+  width: 400px;
+  border-image-source: linear-gradient(to right, #e8d7c9, #f71e95);
+  border-image-slice: 1;
+}
+
+.about {
+  background-color: #eeedeb;
+  margin: 2rem 0;
+}
+
+Footer {
+  background-color: #88807d;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  font-family: 'Montserrat', sans-serif;
+  height: 3em;
+  -webkit-box-shadow: 0px -25px 20px 3px rgba(87, 37, 37, 0.3);
+  -moz-box-shadow: 0px -25px 20px 3px rgba(0, 0, 0, 0.3);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-25, Color='rgba(0, 0, 0, 0.300)', Positive='true');
+  zoom: 1;
+  box-shadow: 0px -25px 20px 3px rgba(0, 0, 0, 0.3);
 }

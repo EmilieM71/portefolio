@@ -9,11 +9,11 @@ body,
 html {
   overflow: hidden;
 }
-
+/* #232323 */
 .container {
   width: 100%;
   height: 30vh;
-  background: #232323;
+  background: #e8d7c9;
 
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ html {
 
 .box {
   width: 450px;
-  height: 250px;
+  height: 150px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -37,19 +37,19 @@ html {
   height: 50px;
   margin: 10px;
 }
-
+/*  #ffb510 */
 .block {
   width: 0%;
   height: inherit;
-  background: #ffb510;
+  background: #f71e95;
   position: absolute;
   animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   display: flex;
 }
-
+/* #fff */
 .h1 {
   font-family: 'Poppins';
-  color: #fff;
+  color: #121212;
   font-size: 32px;
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
@@ -60,7 +60,7 @@ html {
   align-items: baseline;
   position: relative;
 }
-
+/*  #ffb510 */
 .span {
   width: 0px;
   height: 0px;
@@ -68,7 +68,7 @@ html {
   -moz-border-radius: 50%;
   border-radius: 50%;
 
-  background: #ffb510;
+  background: #f71e95;
   -webkit-animation: load 0.6s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   animation: popIn 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   animation-delay: 2s;
@@ -88,24 +88,24 @@ html {
   margin-top: -10px;
   margin-left: 10px;
 }
-
+/* e91e63 */
 .block {
   width: 0%;
   height: inherit;
-  background: #e91e63;
+  background: #dd95f0;
   position: absolute;
   animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   animation-delay: 2s;
   display: flex;
 }
-
+/*  #ffffff */
 .p {
   animation: secFadeIn 2s forwards;
   animation-delay: 3.2s;
   opacity: 0;
   font-weight: 400;
   font-family: 'Lato';
-  color: #ffffff;
+  color: #727272;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -149,19 +149,19 @@ html {
     opacity: 1;
   }
 }
-
+/* #e9d856 */
 @keyframes popIn {
   0% {
     width: 0px;
     height: 0px;
-    background: #e9d856;
+    background: #f738a1;
     border: 0px solid #ddd;
     opacity: 0;
   }
   50% {
     width: 10px;
     height: 10px;
-    background: #e9d856;
+    background: #f738a1;
     opacity: 1;
     bottom: 45px;
   }
@@ -179,7 +179,7 @@ html {
   100% {
     width: 7px;
     height: 7px;
-    background: #e9d856;
+    background: #f738a1;
     border: 0px solid #222;
     bottom: 13px;
   }

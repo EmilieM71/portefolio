@@ -21,8 +21,9 @@ function Home() {
         </div>
       </div>
       <div className="container">
-        <section className="row justify-content-md-center">
-          <h1>A PROPOS DE MOI</h1>
+        <section className="about row justify-content-md-center">
+          <h1 className="title m-5">A PROPOS DE MOI</h1>
+          <div className="border-title mx_auto pb-5"> </div>
           <p>
             Je suis passionnée de developpement, et j&#39;ai décidé de faire de
             cette passion mon métier, je me suis donc réorientée. C&#39;est en
