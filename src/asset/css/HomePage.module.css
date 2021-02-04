@@ -5,10 +5,16 @@
   padding: 0;
 }
 
-body,
+/* body,
 html {
   overflow: hidden;
+} */
+
+.home {
+  height: 100%;
+  overflow-y: scroll;
 }
+
 /* #232323 */
 .container {
   width: 100%;
@@ -21,7 +27,7 @@ html {
 }
 
 .box {
-  width: 450px;
+  width: 550px;
   height: 150px;
   position: relative;
   display: flex;
@@ -59,6 +65,7 @@ html {
   display: flex;
   align-items: baseline;
   position: relative;
+  margin: 0;
 }
 /*  #ffb510 */
 .span {
@@ -218,4 +225,8 @@ html {
     opacity: 1;
     bottom: 0px;
   }
+}
+
+.ImgCode {
+  max-width: 100%;
 }
