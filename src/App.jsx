@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './parts/Header';
 import Footer from './parts/Footer';
 import Home from './pages/HomePage';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route>
+        <Route path="/Contact">
+          <Contact />
+        </Route>
+        <Route path="/">
           <Home />
         </Route>
       </Switch>
