@@ -24,7 +24,11 @@ function Home() {
       <div className="container p-0">
         <section className="about row justify-content-md-center">
           <div className="col p-0">
-            <img className="ImgCode" src={ImgCode} alt="" />
+            <img
+              className={`${style.ImgCode} d-none d-sm-block`}
+              src={ImgCode}
+              alt=""
+            />
           </div>
           <div className="col p-0">
             <h1 className="title m-5">A PROPOS DE MOI</h1>
