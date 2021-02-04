@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
-html {
+/* html {
   scrollbar-color: #000 rgba(82, 82, 82, 0.15);
   scrollbar-width: thin;
+} */
+body {
+  font-size: 0.5rem;
 }
 
 .App {
   text-align: center;
-  scrollbar-color: #000 rgba(82, 82, 82, 0.15);
-  scrollbar-width: thin;
 }
 
 code {
@@ -29,6 +30,11 @@ nav > div > a > img {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+h1 {
+  font-size: 1rem;
+  margin: 0.8rem;
+}
+
 h1,
 h2,
 h3,
@@ -45,9 +51,11 @@ footer {
 /* linear-gradient(to right, #f71e95, e8d7c9) */
 .border-title {
   border-top: 5px solid transparent;
-  width: 400px;
+  width: 50%;
+  margin: auto;
   border-image-source: linear-gradient(to right, #e8d7c9, #f71e95);
   border-image-slice: 1;
+  padding-bottom: 0.8rem;
 }
 
 .about {
@@ -55,16 +63,72 @@ footer {
   margin: 2rem 0;
 }
 
-Footer {
-  background-color: #88807d;
-  position: absolute;
-  width: 100%;
-  bottom: 0%;
-  font-family: 'Montserrat', sans-serif;
-  height: 3em;
-  -webkit-box-shadow: 0px -25px 20px 3px rgba(87, 37, 37, 0.3);
-  -moz-box-shadow: 0px -25px 20px 3px rgba(0, 0, 0, 0.3);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-25, Color='rgba(0, 0, 0, 0.300)', Positive='true');
-  zoom: 1;
-  box-shadow: 0px -25px 20px 3px rgba(0, 0, 0, 0.3);
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    font-size: 0.6rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .border-title {
+    padding-bottom: 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin: 1.5rem;
+  }
+  .border-title {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin: 2rem;
+  }
+  .border-title {
+    padding-bottom: 2rem;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 2.5rem;
+  }
+  .border-title {
+    padding-bottom: 2.5rem;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin: 3rem;
+  }
+  .border-title {
+    padding-bottom: 3rem;
+  }
 }
