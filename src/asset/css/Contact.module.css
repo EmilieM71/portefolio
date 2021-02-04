@@ -1,0 +1,74 @@
+.button {
+  display: inline-block;
+  padding: 10px;
+  margin: 1rem auto;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  box-shadow: #0000001a 0px 4px 12px;
+  overflow: hidden;
+  background-color: #727272;
+}
+
+.button:before,
+.button:after {
+  content: '';
+}
+
+.button:before {
+  transform: scale(1);
+  transition: 0.3s ease transform;
+  z-index: 1;
+}
+
+.button:after {
+  background-color: #000;
+  z-index: 2;
+}
+
+.button div {
+  z-index: 3;
+}
+
+.button div:before,
+.button div:after {
+  color: #fff;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  padding: 25px 0;
+  transition: 0.3s ease all;
+}
+
+.button div:before {
+  content: 'ENVOYER';
+  letter-spacing: 0;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.button div:after {
+  content: 'MERCI !';
+  letter-spacing: -10px;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.button:hover:before {
+  transform: scale(1.3);
+}
+
+.button:hover div:before {
+  letter-spacing: 3px;
+  opacity: 0;
+  transform: scale(4);
+}
+
+.button:hover div:after {
+  letter-spacing: 0;
+  opacity: 1;
+  transform: scale(1);
+}
