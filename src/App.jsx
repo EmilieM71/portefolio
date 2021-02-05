@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './parts/Header';
 import Footer from './parts/Footer';
 import Home from './pages/HomePage';
+import Portefolio from './pages/Portefolio';
 import Contact from './pages/Contact';
 import './App.css';
 
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route path="/Contact">
           <Contact />
+        </Route>
+        <Route path="/Portefolio">
+          <Portefolio />
         </Route>
         <Route path="/">
           <Home />
