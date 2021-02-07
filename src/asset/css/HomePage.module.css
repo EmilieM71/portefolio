@@ -13,22 +13,25 @@ html {
 .home {
   height: 100%;
   overflow-y: scroll;
+  /* background-image: url('../images/path.png');
+  background-repeat: no-repeat;
+  background-size: 80vw;
+  background-position: center; */
 }
 
 /* #232323 */
 .container {
   width: 100%;
-  height: 30vh;
+  height: auto;
   background: #e8d7c9;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .box {
-  width: 550px;
-  height: 150px;
+  /* width: 100; */
+  /* height: 40vh; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -40,7 +43,7 @@ html {
   position: relative;
   display: flex;
   align-items: center;
-  height: 50px;
+  height: auto;
   margin: 10px;
 }
 /*  #ffb510 */
@@ -56,7 +59,7 @@ html {
 .h1 {
   font-family: 'Poppins';
   color: #121212;
-  font-size: 32px;
+  font-size: 30px;
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
@@ -92,7 +95,7 @@ html {
   display: flex;
   align-items: center;
   height: 30px;
-  margin-top: -10px;
+  margin-top: -5px;
   margin-left: 10px;
 }
 /* e91e63 */
@@ -227,6 +230,54 @@ html {
   }
 }
 
-.ImgCode {
+/* .ImgCode {
   max-width: 100%;
+} */
+
+.profilePath {
+  height: 40vh;
+  /* border: red 2px solid; */
 }
+
+.goal {
+  background-color: #eeedeb;
+}
+
+.backgroundPink {
+  background-color: #e6c5db;
+}
+.backgroundDarkGray {
+  background-color: #8c8380;
+}
+.backgroundLightBeige {
+  background-color: #f7e9df;
+}
+.backgroundDarkBeige {
+  background-color: #e8d7c9;
+}
+.backgroundviolet {
+  background-color: #c8b0d9;
+}
+.radiusTopRight {
+  border-top-right-radius: 90%;
+}
+.radiusTopleft {
+  border-top-left-radius: 90%;
+}
+.radiusBottomRight {
+  border-bottom-right-radius: 90%;
+}
+.radiusbottomLeft {
+  border-bottom-left-radius: 90%;
+}
+.radiusbottomLeft {
+  border-radius: 50%;
+}
+
+/* .round {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border: solid;
+  border-width: 1px;
+  border-color: #e6c5db #e6c5db #e6c5db transparent;
+} */
