@@ -15,6 +15,11 @@ function Administration({ user }) {
             </Link>
           </li>
           <li>
+            <Link to="/category" className="navbar-brand">
+              Modifier les catégories
+            </Link>
+          </li>
+          <li>
             <Link to="/project" className="navbar-brand">
               Modifier les projets
             </Link>

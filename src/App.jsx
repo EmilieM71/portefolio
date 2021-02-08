@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './parts/Header';
 import Footer from './parts/Footer';
 import Authentication from './pages/Authentication';
+import AdminCategory from './components/AdminCategory';
 import Home from './pages/HomePage';
 import Portefolio from './pages/Portefolio';
 import Trainning from './pages/Trainning';
@@ -20,6 +21,9 @@ function App() {
       <Switch>
         <Route path="/LogIn">
           <Authentication />
+        </Route>
+        <Route path="/category">
+          <AdminCategory user={user} />
         </Route>
         <Route path="/administration">
           <Administration user={user} />
